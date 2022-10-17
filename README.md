@@ -18,10 +18,10 @@ N/A
 when you come on to the web page you have to understand everything about it to use it properly. the numbers in sequential order are the hours in Military clock format.
 you can type anything you wish just make sure you click th blue button that says "save" to make sure its solidified to stay on your webpage whenever you come back to it. the textbox colors will vary depending on what time it is there are three colors red meaning present grey meaning past and green meaning future. you can save text right now before and in the future when ever you want.  
 ## Screenshot
-
+[webpage screenshot](assets\workday.PNG)
 
 ## Link
-
+[The link to the webpage.](https://elijahlinton.github.io/workday-calendar/)
 ## Credits
 
 N/A
