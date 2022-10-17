@@ -5,8 +5,35 @@
     var timeDate = moment();
 $("#currentDay").text(timeDate.format("MMMM Do YYYY, HH:mm a"))
 
-
-
+ //loads recent local storage data on the text area 
+window.onload = function(){
+    $("#militarytime0 .textInput").val(localStorage.getItem('militarytime0'))
+    $("#militarytime1 .textInput").val(localStorage.getItem('militarytime1'))
+    $("#militarytime2 .textInput").val(localStorage.getItem('militarytime2'))
+    $("#militarytime3 .textInput").val(localStorage.getItem('militarytime3'))
+    $("#militarytime4 .textInput").val(localStorage.getItem('militarytime4'))
+    $("#militarytime5 .textInput").val(localStorage.getItem('militarytime5'))
+    $("#militarytime6 .textInput").val(localStorage.getItem('militarytime6'))
+    $("#militarytime7 .textInput").val(localStorage.getItem('militarytime7'))
+    $("#militarytime8 .textInput").val(localStorage.getItem('militarytime8'))
+    $("#militarytime9 .textInput").val(localStorage.getItem('militarytime9'))
+    $("#militarytime10 .textInput").val(localStorage.getItem('militarytime10'))
+    $("#militarytime11 .textInput").val(localStorage.getItem('militarytime11'))
+    $("#militarytime12 .textInput").val(localStorage.getItem('militarytime12'))
+    $("#militarytime13 .textInput").val(localStorage.getItem('militarytime13'))
+    $("#militarytime14 .textInput").val(localStorage.getItem('militarytime14'))
+    $("#militarytime15.textInput").val(localStorage.getItem('militarytime15'))
+    $("#militarytime16 .textInput").val(localStorage.getItem('militarytime16'))
+    $("#militarytime17 .textInput").val(localStorage.getItem('militarytime17'))
+    $("#militarytime18 .textInput").val(localStorage.getItem('militarytime18'))
+    $("#militarytime19 .textInput").val(localStorage.getItem('militarytime19'))
+    $("#militarytime20 .textInput").val(localStorage.getItem('militarytime20'))
+    $("#militarytime21 .textInput").val(localStorage.getItem('militarytime21'))
+    $("#militarytime22 .textInput").val(localStorage.getItem('militarytime22'))
+    $("#militarytime23 .textInput").val(localStorage.getItem('militarytime23'))
+    $("#militarytime24 .textInput").val(localStorage.getItem('militarytime24'))
+    clock();
+ }
     
 //function used to to take text input values and store them within the local storage
 function storeInfo () {
@@ -52,32 +79,4 @@ function storeInfo () {
 
 // event listener  that calls a function every time a button is press
 $(".saveBtn").on("click",storeInfo) 
- //loads recent local storage data on the text area 
 
-    $("#militarytime0 .textInput").val(localStorage.getItem('militarytime0'))
-    $("#militarytime1 .textInput").val(localStorage.getItem('militarytime1'))
-    $("#militarytime2 .textInput").val(localStorage.getItem('militarytime2'))
-    $("#militarytime3 .textInput").val(localStorage.getItem('militarytime3'))
-    $("#militarytime4 .textInput").val(localStorage.getItem('militarytime4'))
-    $("#militarytime5 .textInput").val(localStorage.getItem('militarytime5'))
-    $("#militarytime6 .textInput").val(localStorage.getItem('militarytime6'))
-    $("#militarytime7 .textInput").val(localStorage.getItem('militarytime7'))
-    $("#militarytime8 .textInput").val(localStorage.getItem('militarytime8'))
-    $("#militarytime9 .textInput").val(localStorage.getItem('militarytime9'))
-    $("#militarytime10 .textInput").val(localStorage.getItem('militarytime10'))
-    $("#militarytime11 .textInput").val(localStorage.getItem('militarytime11'))
-    $("#militarytime12 .textInput").val(localStorage.getItem('militarytime12'))
-    $("#militarytime13 .textInput").val(localStorage.getItem('militarytime13'))
-    $("#militarytime14 .textInput").val(localStorage.getItem('militarytime14'))
-    $("#militarytime15.textInput").val(localStorage.getItem('militarytime15'))
-    $("#militarytime16 .textInput").val(localStorage.getItem('militarytime16'))
-    $("#militarytime17 .textInput").val(localStorage.getItem('militarytime17'))
-    $("#militarytime18 .textInput").val(localStorage.getItem('militarytime18'))
-    $("#militarytime19 .textInput").val(localStorage.getItem('militarytime19'))
-    $("#militarytime20 .textInput").val(localStorage.getItem('militarytime20'))
-    $("#militarytime21 .textInput").val(localStorage.getItem('militarytime21'))
-    $("#militarytime22 .textInput").val(localStorage.getItem('militarytime22'))
-    $("#militarytime23 .textInput").val(localStorage.getItem('militarytime23'))
-    $("#militarytime24 .textInput").val(localStorage.getItem('militarytime24'))
-    clock();
- 
